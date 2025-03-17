@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Image with Blog Content</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        hr {
+           border: 0;
+           height: 2px;
+           background: #1E3A8A;
+           margin: 20px 0;
+  }
+        .cover-container {
+            height: 25vh;
+            position: relative;
+            margin-bottom: 2rem;
+        }
+        
+        .cover-containerr {
+            height: 25vh;
+            position: relative;
+            margin-bottom: 2rem;
+        
+        }
+        .cover-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        
+
+        .cover-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            text-align: center;
+        }
+
+        
+        .cover-titlee{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            text-align: right;
+        }
+        
+        .blog-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .blog-post {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .blog-post h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .blog-post p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .cover-title {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .cover-titlee {
+                font-size: 2rem;
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f8f8;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 2px solid #ddd;
+            background: #fff;
+            position: relative;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #555;
+            font-size: 14px;
+            padding: 8px 12px;
+        }
+        .nav-links a.active {
+            font-weight: bold;
+            border-bottom: 2px solid black;
+            padding-bottom: 3px;
+        }
+        .nav-links a:hover {
+            color: black;
+        }
+
+        /* Toggle button (hidden by default) */
+        .menu-toggle {
+            display: none;
+            font-size: 22px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+
+        /* Mobile view */
+        @media screen and (max-width: 600px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                text-align: center;
+                width: 100%;
+                position: absolute;
+                top: 50px;
+                left: 0;
+                background: #fff;
+                border-top: 1px solid #ddd;
+                padding: 10px 0;
+            }
+            .nav-links a {
+                padding: 10px;
+                display: block;
+            }
+            .menu-toggle {
+                display: block;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="cover-container">
+        <img src="Screenshot 2025-03-11 090441.png" alt="Cover Photo" class="cover-image">
+        <h1 class="cover-title">"Most excited match decades to remember"</h1>
+    </div>
+
+    <div class="navbar">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <div class="nav-links">
+            <a href="#" class="active">All</a>
+            <a href="https://viora4.netlify.app/">Home</a>
+            <a href="https://viora4-news-blogs.netlify.app/">News</a>
+            <a href="https://viora4-blogs.netlify.app/">Blogs</a>
+                        <a href="https://viora4-latest.netlify.app/">Latest</a>
+
+            <a href="https://nouman007pro.github.io/privacy.github.io/">Privacy</a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('.nav-links');
+            nav.style.display = (nav.style.display === 'flex') ? 'none' : 'flex';
+        }
+    </script>
+    
+
+
+    <div class="blog-content">
+        <div class="blog-post">
+          <h2> Public Perception and Criticism </h2>
+            <p>Jake Paul, the 27-year-old YouTuber-turned-professional boxer, faced 58-year-old boxing legend Mike Tyson in a highly publicized match on November 15, 2024, at AT&T Stadium in Arlington, Texas. The bout, streamed globally on Netflix, concluded with Paul securing a unanimous decision victory over Tyson. 
+APNEWS.COM
+
+Fight Overview:
+
+The eight-round contest saw Paul outlanding Tyson 78 to 18 in total punches. The judges scored the fight 80-72, 79-73, and 79-73, all in favor of Paul. Despite the significant age difference, both fighters showcased determination, but Tyson's performance appeared hindered, possibly due to health issues leading up to the fight. 
+ESPN.COM
+
+Public and Media Reaction:
+
+The event garnered mixed reactions. Some fans expressed disappointment, feeling the match didn't live up to the hype, with reports of the crowd booing during the fight. Critics highlighted the stark contrast in age and stamina between the two fighters as factors affecting the bout's competitiveness. 
+THE-SUN.COM
+
+Post-Fight Developments:
+
+Following the fight, Tyson expressed confusion over his performance, noting he wasn't as fatigued as he appeared and was surprised by the bout's pace. He acknowledged his health issues prior to the match, which may have impacted his showing. 
+TALKSPORT.COM
+
+In the aftermath, Netflix reported that the event attracted 65 million concurrent viewers, marking it as one of the most streamed sporting events on the platform. 
+NETFLIX.COM
+
+Future Prospects:
+
+Building on the success of this event, Netflix is reportedly pursuing other high-profile boxing matches, including potential bouts featuring Anthony Joshua vs. Tyson Fury and Canelo Alvarez vs. Terence Crawford, as part of an aggressive push into the boxing industry. 
+TALKSPORT.COM
+
+Additionally, Jake and Logan Paul are set to debut a new reality show titled "Paul American" on March 27 on Max. The eight-episode series aims to blend traditional television and social media content, providing an inside look into the brothers' lives and careers
+            </div><hr>
+        <div class="cover-containerr">
+            <img src="" alt="Cover Photo" class="cover-image">
+            <h1 class="cover-titlee">"Viral online reaction to mrbeast"</h1>
+       </div>
+    
+       <div class="blog-content">
+            <div class="blog-post">
+ 
+            <h2> Jake Paul vs. Mike Tyson Fight</h2>
+            <p>Jake Paul, a 27-year-old social media influencer turned professional boxer, faced 58-year-old boxing legend Mike Tyson on November 15, 2024, at AT&T Stadium in Arlington, Texas. The fight was streamed globally on Netflix, attracting a peak viewership of 65 million concurrent viewers. 
+NETFLIX.COM
+
+Fight Details:
+
+Rules and Regulations: The bout was sanctioned as a professional match by the Texas Department of Licensing and Regulation. It consisted of eight rounds, each lasting two minutes, and both fighters wore 14-ounce gloves, heavier than the standard 10-ounce gloves typically used in heavyweight fights. 
+NBCDFW.COM
+
+Fight Outcome: Jake Paul secured a unanimous decision victory over Mike Tyson. The judges scored the fight 80-72, 79-73, and 79-73, all in favor of Paul. 
+ESPN.COM
+
+Post-Fight Reactions:
+
+Mike Tyson: Despite the loss, Tyson expressed no intention of retiring and even called out Jake's brother, Logan Paul, for a potential future bout. 
+EN.WIKIPEDIA.ORG
+
+Jake Paul: Paul's victory marked his 11th professional win, further solidifying his presence in the boxing world. 
+EN.WIKIPEDIA.ORG
+
+Public and Media Reception:
+
+The fight received mixed reactions. Many fans and critics expressed disappointment, citing a lack of action and competitiveness, possibly due to the significant age difference between the fighters. The crowd at AT&T Stadium reportedly booed during the later rounds as both fighters appeared fatigued and less engaged. 
+THESUN.CO.UK
+
+Financial Aspects:
+
+Reports indicate that Jake Paul earned a purse of $40 million for the fight, while Mike Tyson received $20 million. 
+EN.WIKIPEDIA.ORG
+
+Future Prospects:
+
+Building on the success of this event, Netflix is reportedly pursuing other high-profile boxing matches, including potential bouts featuring Anthony Joshua vs. Tyson Fury and Canelo Alvarez vs. Terence Crawford, as part of an aggressive push into the boxing industry. 
+TALKSPORT.COM
+
+Undercard Highlights:
+
+Katie Taylor vs. Amanda Serrano: In the co-main event, Katie Taylor defended her lightweight title against Amanda Serrano, winning by unanimous decision. 
+</p>
+                
+                </div> <hr></div>   </div>
+         
+                    <style>
+                        * {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                            font-family: Arial, sans-serif;
+                        }
+                
+                        .footer {
+                            background: #2f2f2f;
+                            color: #fff;
+                            padding: 50px 20px;
+                            line-height: 1.6;
+                        }
+                
+                        .footer-content {
+                            max-width: 1200px;
+                            margin: 0 auto;
+                            display: grid;
+                            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                            gap: 30px;
+                        }
+                
+                        .footer-section h3 {
+                            color: #fff;
+                            margin-bottom: 20px;
+                            font-size: 18px;
+                        }
+                
+                        .footer-about p {
+                            margin-bottom: 15px;
+                        }
+                
+                        .newsletter-input {
+                            display: flex;
+                            margin-top: 15px;
+                        }
+                
+                        .newsletter-input input {
+                            padding: 10px;
+                            border: none;
+                            width: 70%;
+                        }
+                
+                        .newsletter-input button {
+                            padding: 10px 15px;
+                            background: #007bff;
+                            border: none;
+                            color: white;
+                            cursor: pointer;
+                        }
+                
+                        .news-item {
+                            margin-bottom: 20px;
+                        }
+                
+                        .news-date {
+                            color: #888;
+                            font-size: 14px;
+                            margin-top: 5px;
+                        }
+                
+                        .footer-links {
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                            gap: 10px;
+                        }
+                
+                        .footer-links a {
+                            color: #ccc;
+                            text-decoration: none;
+                            display: block;
+                        }
+                
+                        .footer-links a:hover {
+                            color: #fff;
+                        }
+                
+                        .copyright {
+                            text-align: center;
+                            margin-top: 50px;
+                            padding-top: 30px;
+                            border-top: 1px solid #444;
+                            color: #888;
+                        }
+                
+                        @media (max-width: 768px) {
+                            .footer-content {
+                                grid-template-columns: 1fr;
+                            }
+                        }
+                    </style>
+                
+                
+                    <footer class="footer">
+                        <div class="footer-content">
+                            <div class="footer-section footer-about">
+                                <h3>About</h3>
+                                <p>Ghori Town,<br>Islamabad, 44000, Pakistan</p>
+                                <p>+92 319 972 9298</p>
+                                <p>mindmentor2025@gmail.com</p>
+                                <div class="newsletter-input">
+                                    <input type="email" placeholder="Enter email address">
+                                    <button>Submit</button>
+                                </div>
+                            </div>
+                
+                            <div class="footer-section">
+                                <h3>Latest News</h3>
+                                <div class="news-item">
+                                    <p>Trump New Policies could be game changer for america</p>
+                                    <div class="news-date">Mar. 11, 2020  Admin  19</div>
+                                </div>
+                                <div class="news-item">
+                                    <p>Ukrain President went to Saudi Arabia For Meeting with highness</p>
+                                    <div class="news-date">Mar. 11, 2020  Admin  19</div>
+                                </div>
+                            </div>
+                
+                            <div class="footer-section">
+                                <h3>Information</h3>
+                                <div class="footer-links">
+                                    <div>  
+            <a href="#" class="active">All</a>
+            <a href="https://viora4.netlify.app/">Home</a>
+            <a href="https://viora4-news-blogs.netlify.app/">News</a>
+            <a href="https://viora4-blogs.netlify.app/">Blogs</a>
+                                                    <a href="https://viora4-latest.netlify.app/">Latest</a>
+
+            <a href="https://nouman007pro.github.io/privacy.github.io/">Privacy</a>
+                                    </div>
+                                    <div>
+                                        <a href="#">Help & Support</a>
+                                        <a href="#instagram"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="copyright">
+                            <p>Copyright ©2025 All rights reserved.</p>
+                            <p>This Website Created ♥ by viora4.netlify.app Team</p>
+                        </div>
+                    </footer>
+                </body>
+                </html>        
+            </body>
+</html>
